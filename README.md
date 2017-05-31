@@ -1,24 +1,3 @@
-# README
+# Enunciado Reto frontend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Crear una pagina que me permita registrarme con mi correo electronico y una contraseña, y una vez logueado me pregunte un bullying acerca de la persona que creo la pagina, mi nombre completo, y me pida una foto/imagen de perfil, luego la pagina muestre todos los bullying paginados y me muestre en cada una la opcion de adivinar quien escribio el bullying marcando como opcion correcta una vez encuentre al bully
