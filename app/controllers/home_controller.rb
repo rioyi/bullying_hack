@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
 		
   def index
-  	@bullying = Comment.all
+  	@bullying = Profile.all
   end
 
 
