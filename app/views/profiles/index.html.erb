@@ -1,0 +1,17 @@
+<h1>Vista del Perfil</h1>
+
+<%= @current_user.id %>
+<%= @current_user.email %>
+<br>
+
+    <tr>
+      <strong>Nombre:</strong> <%= @profile.name %>
+      <br>
+      <strong>Apellido:</strong>  <%= @profile.last_name %>
+    </tr>
+
+
+<br>
+<%= link_to 'Back', profiles_path%>
+<br>
+<%= link_to 'Edit', edit_profile_path(@profile) %>
