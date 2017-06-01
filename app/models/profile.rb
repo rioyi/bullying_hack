@@ -16,4 +16,10 @@
 
 class Profile < ApplicationRecord
   belongs_to :user
+
+
+  def self.buscar_user
+  	User.first
+  end
+
 end

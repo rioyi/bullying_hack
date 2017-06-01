@@ -1,3 +1,3 @@
-# Enunciado Reto frontend
+# Reto del Bullying
 
 Crear una pagina que me permita registrarme con mi correo electronico y una contraseña, y una vez logueado me pregunte un bullying acerca de la persona que creo la pagina, mi nombre completo, y me pida una foto/imagen de perfil, luego la pagina muestre todos los bullying paginados y me muestre en cada una la opcion de adivinar quien escribio el bullying marcando como opcion correcta una vez encuentre al bully
