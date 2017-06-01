@@ -16,6 +16,7 @@
 
 class Profile < ApplicationRecord
   belongs_to :user
+  has_many :comments
 
 
   def self.buscar_user
