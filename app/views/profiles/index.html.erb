@@ -11,7 +11,38 @@
     </tr>
 
 
+
 <br>
 <%= link_to 'Back', profiles_path%>
 <br>
 <%= link_to 'Edit', edit_profile_path(@profile) %>
+
+
+
+<h2>Bullying List</h2>
+<% @profile.comments.each do |comment| %>
+  <p>
+    <strong>Titulo:</strong>
+    <%= comment.title %>
+  </p>
+ 
+  <p>
+    <strong>Texto del Bullying:</strong>
+    <%= comment.text %>
+  </p>
+<% end %>
+ 
+<h2>Agregar Bullying:</h2>
+<%= form_for([@profile, @profile.comments.build]) do |f| %>
+  <p>
+    <%= f.label :title, 'Titulo' %><br>
+    <%= f.text_field :title  %>
+  </p>
+  <p>
+    <%= f.label :text, 'Cuerpo del Bullying' %><br>
+    <%= f.text_area :text %>
+  </p>
+  <p>
+    <%= f.submit 'Crear Bullying' %>
+  </p>
+<% end %>

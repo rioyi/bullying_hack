@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 	root 'home#index'
 
 	resources :profiles do
-		resources :bullying
+		resources :comments
 	end
 
   devise_for :users
